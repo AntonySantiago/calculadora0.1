@@ -50,4 +50,4 @@ export function escutarCalculos() {
 }
 export async function excluirCalculo(id) {
     await deleteDoc(doc(db,"calculos",id));
-} 
+}
